@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bacasime+Antique&family=Bagel+Fat+One&family=Dosis:wght@200;500&family=Open+Sans:ital,wght@0,700;0,800;1,400;1,500&family=Playfair:wght@300&family=Raleway:ital,wght@0,200;1,100;1,200&family=Ysabeau+Office:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,1;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Agdasima', sans-serif;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+/* header section */
+
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.header img {
+    width: 400px;
+}
+
+.header-content {
+    text-align: left;
+
+}
+
+.header-titel {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 32px;
+    width: 634px;
+
+
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* feature section style */
+
+.features {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.feature-titel {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/* Feature image style */
+.feature-images {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 0px 40px;
+}
+
+.image-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 0px 0px;
+}
+
+.image-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 0px 40px;
+}
+
+
+/* sale section style */
+
+.sale {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0px 200px;
+}
+
+
+.sale-titel {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.sale-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+
+/* Social-media section */
+
+
+.social-media-titel {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.social-media-description{
+ color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.social-media-images{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 240px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+   
+}
+
+/* last deal */
+.last-deal{
+    background-image: url(/img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    height: 449px; 
+    margin: 0px 240px;
+    margin-bottom: 100px;
+}
+.last-deal-content{
+    padding: 122px;
+
+}
+.last-deal-titel{ 
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.last-deal-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
+}
+.last-deal-textarea{
+    border-radius: 8px;
+    background: #FFF; 
+    width: 555px;
+    height: 42px;
+}
+.last-deal-inputs{
+    margin: 0px 362px;
+}
+
+/* Footer section */
+footer{
+    background: #111010;
+    padding: 150px;
+}
+.footer-container{
+    padding: 120px;
+}
+.footer-titel{
+    color: white;
+    text-align: center;
+font-size: 48px;
+font-weight: 800;
+margin-bottom: 40px;
+}
+footer span{
+    color:#E55473 ;
+}
+.footer-description{
+ color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 30px;
+
+}
+.footer-copyright{
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+ 
+}
+
+/* complete */
